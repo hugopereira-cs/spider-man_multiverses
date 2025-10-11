@@ -32,16 +32,17 @@
 }
 
 .navigator::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     width: 2px;
     height: 100%;
     background-color: #fff;
+    z-index: 0;
 }
 
 .navigator ul {
-    position: relative;
+    z-index: 1;
 }
 
 .navigator ul li a:hover,
