@@ -13,6 +13,11 @@
     flex-flow: row nowrap;
 }
 
+.s-wrapper video {
+    position: fixed;
+    width: 100%;
+}
+
 .s-wrapper .s-left-column {
     width: 100px;
     height: 100%;
@@ -29,12 +34,11 @@
 .s-wrapper .s-main-content {
     width: 100%;
     height: 100%;
-    background-color: #808080;
     padding-left: 130px;
     position: relative;
 }
 
-.s-wrappr .s-main-content__top {
+.s-wrapper .s-main-content__top {
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -78,4 +82,9 @@
 .s-wrapper .s-main-content .s-links ul {
     display: flex;
     flex-direction: row;
+}
+
+.s-spiderman-01-01 {
+    background-image: url('../images/spiderman-tobey/movie-01/background.png');
+    background-size: cover;
 }
