@@ -104,12 +104,19 @@ body::before {
     z-index: 1;
 }
 
-.s-controller > :hover {
+.s-controller__button:hover {
     transform: scale(1.1);
 }
 
 .s-controller__button:nth-child(2) {
     margin: 0 3.75rem;
+}
+
+.s-controller__button--active {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: .1875rem solid var(--primary-color);
+    outline: .1255rem solid #fff;
 }
 
 .s-controller__line {
